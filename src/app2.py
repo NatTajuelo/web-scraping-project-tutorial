@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 import pandas as pd
 
 
-service = Service('ruta/a/chromedriver')  # Especifica la ruta a tu chromedriver
+service = Service('')  
 driver = webdriver.Chrome(service=service)
 
 url = "https://ycharts.com/companies/TSLA/revenues"
